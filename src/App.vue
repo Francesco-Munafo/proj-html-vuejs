@@ -92,7 +92,9 @@
                 </div>
             </div>
         </section>
+
         <section id="section_splitter"></section>
+
         <section id="courses">
             <div class="container">
                 <img width="48px" src="./assets/img/Books-icon.png" alt="books">
@@ -103,18 +105,53 @@
                             course that satisfies your needs within a click away and applies for a course in a matter of
                             minutes. EduPrime is ranked as the most versatile university in the world, thanks to the number
                             of courses it provides</p>
-                            <button class="bg_warning txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5">Browse through courses</button>
+                        <button class="bg_warning txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5">Browse through
+                            courses</button>
                     </div>
                     <div class="col-6">
                         <img class="img-fluid" src="./assets/img/Graduation-Illustration.png" alt="">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        
+
+
+            </div>
+        </section>
+
+        <section id="faculties">
+            <div class="row m-0 justify-content-center">
+                <div class="col text-center p-0">
+                    <h2 class="txt_main fw-bold">Faculties available at EduPrime</h2>
+                    <p class="w-25 m-auto">A single university with a load of courses, tailored to satisfy any student's
+                        needs</p>
+                </div>
+            </div>
+            <div class="faculties_list">
+                <div class="container">
+                    <div class="row row-cols-5 justify-content-center align-items-center">
+
+                        <div class="col py-3 d-flex flex-column align-items-center">
+                            <img class="img-fluid" src="./assets/img/Gavel-v2.png" alt="">
+                            <h6 class="mt-2 mb-0 txt_danger">Law Faculty</h6>
+                        </div>
+                        <div class="col py-3 d-flex flex-column align-items-center">
+                            <img class="img-fluid" src="./assets/img/Coins-tabs-v2.png" alt="">
+                            <h6 class="mt-2 mb-0 txt_danger">Economy</h6>
+                        </div>
+                        <div class="col py-3 d-flex flex-column align-items-center">
+                            <img class="img-fluid" src="./assets/img/Medicine-tabs-v2.png" alt="">
+                            <h6 class="mt-2 mb-0 txt_danger">Medicine</h6>
+                        </div>
+                        <div class="col py-3 d-flex flex-column align-items-center">
+                            <img class="img-fluid" src="./assets/img/Computer-tabs-v2.png" alt="">
+                            <h6 class="mt-2 mb-0 txt_danger">Computer Science</h6>
+                        </div>
+                        <div class="col py-3 d-flex flex-column align-items-center">
+                            <img class="img-fluid" src="./assets/img/Palette-tabs-v2.png" alt="">
+                            <h6 class="mt-2 mb-0 txt_danger">Graphic Design</h6>
+                        </div>
+
                     </div>
                 </div>
-
             </div>
         </section>
 
