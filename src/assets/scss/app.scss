@@ -5,3 +5,99 @@
 /* Variables */
 
 @use './partials/variables' as *;
+
+
+/* FONT LINK */
+
+body {
+
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+/*#region BACKGROUND UTILITIES */
+
+.bg_warning{
+    background-color: $ep-bg-warning;
+}
+
+.bg_light{
+    background-color: $ep-bg-white;
+}
+/*#endregion BACKGROUND UTILITIES */
+
+
+/*#region TEXT UTILITIES */
+
+.ls_1{
+    letter-spacing: 1px;
+}
+
+.txt_white{
+    color: $ep-text-white;
+}
+
+.txt_danger{
+    color: $ep-text-danger;
+}
+
+.txt_main{
+    color: $ep-text-main;
+}
+
+
+/*#endregion TEXT UTILITIES */
+
+
+
+
+
+header{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    button{
+        background-color: $ep-bg-warning;
+        color: $ep-text-white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+
+#jumbotron{
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    
+    .col-4{
+        padding-top: 117px;
+        margin-bottom: 8rem;
+    }
+
+    h1, p{
+        color: $ep-text-white;
+        
+    }
+
+}
+
+#section_splitter{
+    background-image: url('../img/Wave-1.png');
+    width: 100%;
+    height: 150px;
+    margin-top: -8rem;
+}
+
+#courses{
+    background-image: url('../img/home-background.png');
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+    
+}
