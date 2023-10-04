@@ -184,39 +184,101 @@
 
                         <div class="orientation description">
                             <h5>Orientation</h5>
-                           <p>First day of the university year, all students gather for the opening ceremony and then network with others.</p> 
+                            <p>First day of the university year, all students gather for the opening ceremony and then
+                                network with others.</p>
                         </div>
 
                         <div class="demo description">
-                           <h5>Demo Classes</h5>
-                           <p>In the first week, students try to accomodate with the teaching style and choose their optional courses.</p> 
+                            <h5>Demo Classes</h5>
+                            <p>In the first week, students try to accomodate with the teaching style and choose their
+                                optional courses.</p>
                         </div>
 
                         <div class="evaluation description">
-                           <h5>Evaluation</h5>
-                           <p>At the end of a semester, students take a general evaluation test for every subject they're learning.</p> 
+                            <h5>Evaluation</h5>
+                            <p>At the end of a semester, students take a general evaluation test for every subject they're
+                                learning.</p>
                         </div>
 
                         <div class="graduation description">
-                           <h5>Graduation Day</h5>
-                           <p>At the end of a semester, students take a general evaluation test for every subject they're learning.</p> 
+                            <h5>Graduation Day</h5>
+                            <p>At the end of a semester, students take a general evaluation test for every subject they're
+                                learning.</p>
                         </div>
 
-                        
+
                         <img src="./assets/img/Timeline-Item.png" alt="">
                     </div>
 
                 </div>
             </div>
+            <div class="row justify-content-center m-0">
+                <div class="col d-flex flex-column align-items-center">
+                    <img class="d-block pb-3" width="48" src="./assets/img/upcoming-events-calendar-icon.png" alt="">
+                    <h2 class="fw-bold txt_white d-inline-block m-auto">Upcoming Events</h2>
+                    <div class="container mt-5 d-flex flex-column justify-content-between gap-5">
+                        <div class="row row-cols-3">
+                            <div class="col">
+                                <div class="card rounded-4">
+                                    <div class="card-body text-center pb-0">
+                                        <h3 class="card-title txt_main fw-bold">Coaching Sessions</h3>
+                                        <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted ">
+                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 20 May 21:30 PM</h6>
+                                        <p class="card-text txt_light_dark">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit. Placeat, voluptates.</p>
+                                        <button
+                                            class="bg_danger prova txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                                :icon="['fas', 'plus']" /> Find more</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card rounded-4">
+                                    <div class="card-body text-center pb-0">
+                                        <h3 class="card-title txt_main fw-bold">Coaching Sessions</h3>
+                                        <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted ">
+                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 24 Mar 18:00 PM</h6>
+                                        <p class="card-text txt_light_dark">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit. Placeat, voluptates.</p>
+                                        <button
+                                            class="bg_danger prova txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                                :icon="['fas', 'plus']" /> Find more</button>
 
-        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card rounded-4">
+                                    <div class="card-body text-center pb-0">
+                                        <h3 class="card-title txt_main fw-bold">Coaching Sessions</h3>
+                                        <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 12 Feb 13:30 PM</h6>
+                                        <p class="card-text txt_light_dark">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit. Placeat, voluptates.</p>
+                                        <button
+                                            class="bg_danger prova txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                                :icon="['fas', 'plus']" /> Find more</button>
 
-    </main>
+                                    </div>
+                                </div>
+                            </div>
 
-    <footer>
+                        </div>
+                        <button class="bg_warning txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5 m-auto">View All Events</button>
+                    </div>
+                </div>
 
-    </footer>
-</template>
+        </div>
+
+    </section>
+
+    <section id="events_splitter"></section>
+
+</main>
+
+<footer>
+
+</footer></template>
 
 
 <style></style>

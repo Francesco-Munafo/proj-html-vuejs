@@ -50,6 +50,10 @@ body {
     color: $ep-text-main;
 }
 
+.txt_light_dark{
+    color: $ep-text-light-dark;
+}
+
 
 /*#endregion TEXT UTILITIES */
 
@@ -65,7 +69,15 @@ body {
     background-image: url('../svg/svg-0.svg');
     width: 100%;
     height: 180px;
+}
 
+#events_splitter{
+    background-image: url('../svg/svg-1.svg');
+    background-position: -20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 165px;
+    margin-top: -0.5px;
 }
 
 /*#endregion SECTION DIVIDERS */
@@ -157,11 +169,11 @@ h2 {
 
 #events{
     background-color: $ep-bg-danger;
-    padding: 15rem 0;
+    padding: 10rem 0;
 }
 
 .timeline{
-    margin-top: 10rem;
+    margin: 10rem 0;
     position: relative;
 }
 
@@ -190,4 +202,12 @@ h2 {
 .graduation{
     top: -100px;
     left: 700px;
+}
+
+.prova{
+    display: inline-block;
+    margin-bottom: -1.2rem;
+    margin-top: 1rem;
+    vertical-align: top;
+    box-shadow: 0 4px 20px -5px $ep-bg-light-dark;
 }
