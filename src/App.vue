@@ -223,11 +223,12 @@
                                     <div class="card-body text-center pb-0">
                                         <h3 class="card-title txt_main fw-bold">Coaching Sessions</h3>
                                         <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted ">
-                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 20 May 21:30 PM</h6>
+                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 20 May 21:30 PM
+                                        </h6>
                                         <p class="card-text txt_light_dark">Lorem ipsum dolor, sit amet consectetur
                                             adipisicing elit. Placeat, voluptates.</p>
                                         <button
-                                            class="bg_danger prova txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                            class="bg_danger flying_button txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
                                                 :icon="['fas', 'plus']" /> Find more</button>
                                     </div>
                                 </div>
@@ -237,11 +238,12 @@
                                     <div class="card-body text-center pb-0">
                                         <h3 class="card-title txt_main fw-bold">Coaching Sessions</h3>
                                         <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted ">
-                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 24 Mar 18:00 PM</h6>
+                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 24 Mar 18:00 PM
+                                        </h6>
                                         <p class="card-text txt_light_dark">Lorem ipsum dolor, sit amet consectetur
                                             adipisicing elit. Placeat, voluptates.</p>
                                         <button
-                                            class="bg_danger prova txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                            class="bg_danger flying_button txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
                                                 :icon="['fas', 'plus']" /> Find more</button>
 
                                     </div>
@@ -252,11 +254,12 @@
                                     <div class="card-body text-center pb-0">
                                         <h3 class="card-title txt_main fw-bold">Coaching Sessions</h3>
                                         <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
-                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 12 Feb 13:30 PM</h6>
+                                            <font-awesome-icon :icon="['far', 'calendar-days']" /> 12 Feb 13:30 PM
+                                        </h6>
                                         <p class="card-text txt_light_dark">Lorem ipsum dolor, sit amet consectetur
                                             adipisicing elit. Placeat, voluptates.</p>
                                         <button
-                                            class="bg_danger prova txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                            class="bg_danger flying_button txt_white fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
                                                 :icon="['fas', 'plus']" /> Find more</button>
 
                                     </div>
@@ -264,21 +267,173 @@
                             </div>
 
                         </div>
-                        <button class="bg_warning txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5 m-auto">View All Events</button>
+                        <button class="bg_warning txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5 m-auto">View All
+                            Events</button>
                     </div>
                 </div>
 
-        </div>
+            </div>
 
-    </section>
+        </section>
 
-    <section id="events_splitter"></section>
+        <section id="events_splitter"></section>
 
-</main>
+        <section id="latest_courses">
+            <div class="container">
+                <h2 class="txt_main ls_1 fw-bold">Latest Courses</h2>
+                <div class="row row-cols-4">
+                    <div class="col">
+                        <div class="card rounded-4 border-0">
+                            <div class="card-body text-center pb-0">
+                                <img width="100" class="img-fluid" src="./assets/img/Decisions-icon.png" alt="">
+                                <h6 class="card-subtitle txt_main fw-bold mb-2 py-2">Make Better Decisions</h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['far', 'user']" /> Teacher: <span class=" fw-medium">James
+                                        Collins</span>
+                                </h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['fas', 'money-bill-1']" /> Price: <span
+                                        class=" fw-medium">$21.00</span>
+                                </h6>
+                                <button
+                                    class="bg_danger txt_white flying_button fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                        :icon="['far', 'eye']" /> View Course</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-4 border-0">
+                            <div class="card-body text-center pb-0">
+                                <img width="100" class="img-fluid" src="./assets/img/Speaker-icon.png" alt="">
+                                <h6 class="card-subtitle txt_main fw-bold mb-2 py-2">How to be a speaker</h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['far', 'user']" /> Teacher: <span class=" fw-medium">James
+                                        Collins</span>
+                                </h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['fas', 'money-bill-1']" /> Price: <span
+                                        class=" fw-medium">Free</span>
+                                </h6>
+                                <button
+                                    class="bg_danger txt_white flying_button fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                        :icon="['far', 'eye']" /> View Course</button>
 
-<footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-4 border-0">
+                            <div class="card-body text-center pb-0">
+                                <img width="100" class="img-fluid" src="./assets/img/Network-icon.png" alt="">
+                                <h6 class="card-subtitle txt_main fw-bold mb-2 py-2">Network Introductions</h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['far', 'user']" /> Teacher: <span class=" fw-medium">James
+                                        Collins</span>
+                                </h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['fas', 'money-bill-1']" /> Price: <span
+                                        class=" fw-medium">Free</span>
+                                </h6>
+                                <button
+                                    class="bg_danger txt_white flying_button fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                        :icon="['far', 'eye']" /> View Course</button>
 
-</footer></template>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded-4 border-0">
+                            <div class="card-body text-center pb-0">
+                                <img width="100" class="img-fluid" src="./assets/img/Brand-icon.png" alt="">
+                                <h6 class="card-subtitle txt_main fw-bold mb-2 py-2 ">Brand Management</h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['far', 'user']" /> Teacher: <span class=" fw-medium">James
+                                        Collins</span>
+                                </h6>
+                                <h6 class="card-subtitle txt_light_dark fw-normal mb-2 py-2 text-muted">
+                                    <font-awesome-icon :icon="['fas', 'money-bill-1']" /> Price: <span
+                                        class=" fw-medium">Free</span>
+                                </h6>
+                                <button
+                                    class="bg_danger txt_white flying_button fw-medium rounded-5 border-0 p-2 px-4"><font-awesome-icon
+                                        :icon="['far', 'eye']" /> View Course</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <section id="methods">
+                    <div class="container">
+                        <img width="48" src="./assets/img/Exam-icon.png" alt="books">
+                        <div class="row row-cols-2">
+                            <div class="col mt-3">
+                                <div class="wrapper ">
+                                    <h2 class="txt_main ls_1 fw-bold my-4">The most efficient examination method</h2>
+                                    <p>EduPrime has gathered teachers from around the globe to brainstorm in order to
+                                        facilitate the evaluation of our students. Every teacher from our university has an
+                                        influence on how students are evaluated at his/her subject.</p>
+                                    <button class="bg_danger txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5">Discover
+                                        the Method</button>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid" src="./assets/img/Exam-Illustration.png" alt="">
+                            </div>
+
+                            <div class="col">
+                                <img class="img-fluid" src="./assets/img/Girl-Illustration.png" alt="">
+                            </div>
+
+                            <div class="col">
+                                <div class="mx-5">
+                                    <img width="48" src="./assets/img/Exam-icon-1.png" alt="">
+                                    <h2 class="txt_main ls_1 fw-bold my-4">Variable fees for international students</h2>
+                                    <p class="mt-5">EduPrime has gathered teachers from around the globe to brainstorm in
+                                        order to
+                                        facilitate
+                                        the evaluation of our students. Every teacher from our university has an influence
+                                        on
+                                        how students are evaluated at his/her subject.</p>
+                                    <button class="bg_danger txt_white fw-medium rounded-5 border-0 mt-5 p-4 px-5">List of
+                                        Fees</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
+            </div>
+
+        </section>
+        <section id="newsletter">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="col-6">
+                    <h3 class="txt_white">Subscribe now to our Newsletter !</h3>
+                </div>
+                <div class="col-6">
+                    <div class="input-group w-75 ms-auto">
+                        
+                        <input type="text" class="form-control rounded-5 my-1" placeholder="Email address..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn bg_warning txt_white rounded-5 position-relative submit" type="button" id="button-addon2"><font-awesome-icon :icon="['fas', 'paper-plane']" /></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    
+
+    </main>
+
+    <footer>
+
+    </footer>
+</template>
 
 
 <style></style>

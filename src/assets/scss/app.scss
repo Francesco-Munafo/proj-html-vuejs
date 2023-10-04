@@ -204,10 +204,42 @@ h2 {
     left: 700px;
 }
 
-.prova{
+.flying_button{
     display: inline-block;
     margin-bottom: -1.2rem;
     margin-top: 1rem;
     vertical-align: top;
     box-shadow: 0 4px 20px -5px $ep-bg-light-dark;
+}
+
+#latest_courses{
+    padding: 5rem 0;
+}
+
+#latest_courses .card{
+    box-shadow: -2px 0 6px 8px $ep-bg-light-gray;;
+}
+
+#methods{
+    margin-top: 10rem;
+}
+
+.wrapper{
+    margin-right: 10rem;
+}
+
+#newsletter{
+    width: 100%;
+    background-color: $ep-bg-danger;
+    padding: 2.5rem 0;
+
+    h3{
+        font-size: 43px;
+    }
+}
+
+.submit{
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    left: -30px;
 }
