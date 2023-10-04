@@ -29,6 +29,19 @@ body {
     background-color: $ep-bg-danger;
 }
 
+button.bg_danger:hover{
+    background-color: $ep-bg-warning;
+}
+
+button.bg_warning:hover{
+    background-color: $ep-bg-danger-transparent;
+    border: 1px solid ;
+}
+
+button.bg_light:hover{
+    background-color: $ep-bg-light-transparent;
+}
+
 /*#endregion BACKGROUND UTILITIES */
 
 
@@ -80,6 +93,12 @@ body {
     margin-top: -0.5px;
 }
 
+#partner_splitter{
+    background-image: url('../img/background-wave3') ;
+    width: 100%;
+    height: 165px;
+}
+
 /*#endregion SECTION DIVIDERS */
 
 header {
@@ -92,6 +111,11 @@ header {
         color: $ep-text-white;
         font-size: 14px;
         font-weight: 600;
+
+        &:hover{
+            background-color: $ep-bg-white;
+            color: $ep-text-danger;
+        }
     }
 }
 
@@ -242,4 +266,28 @@ h2 {
     width: 50px;
     aspect-ratio: 1 / 1;
     left: -30px;
+}
+
+#partners{
+    margin-top: 5rem;
+}
+
+.partner_icons{
+   
+
+   .col{
+    height: 100%;
+    text-align: center;
+    
+    img{
+        object-fit: contain;
+        max-height: 50px;
+        filter: invert(60%);
+
+        &:hover{
+            filter: none;
+        }
+    }
+   }
+   
 }

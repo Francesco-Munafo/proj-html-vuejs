@@ -416,17 +416,59 @@
                 </div>
                 <div class="col-6">
                     <div class="input-group w-75 ms-auto">
-                        
+
                         <input type="text" class="form-control rounded-5 my-1" placeholder="Email address..."
                             aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn bg_warning txt_white rounded-5 position-relative submit" type="button" id="button-addon2"><font-awesome-icon :icon="['fas', 'paper-plane']" /></button>
+                        <button class="btn bg_warning txt_white rounded-5 position-relative submit" type="button"
+                            id="button-addon2"><font-awesome-icon :icon="['fas', 'paper-plane']" /></button>
                     </div>
                 </div>
 
             </div>
         </section>
 
-    
+        <section id="partners">
+
+            <div class="row m-0 justify-content-center">
+                <div class="col text-center p-0">
+                    <h2 class="txt_main fw-bold">Partners</h2>
+                    <p class="w-25 m-auto mt-5">Leverage agile frameworks to provide a robust synopsis for hugh level
+                        overviews. Iterative approaches to corporate strategy</p>
+                </div>
+            </div>
+            <div class="container my-5">
+                <div class="partner_icons row align-items-center justify-content-center">
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-2.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-3.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-4.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-5.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-6.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-8.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-1.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="./assets/img/partner-7.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="partner_splitter"></section>
 
     </main>
 
