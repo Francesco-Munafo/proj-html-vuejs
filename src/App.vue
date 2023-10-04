@@ -472,7 +472,37 @@
 
     </main>
 
-    <footer>
+    <footer class="bg_danger">
+        <div class="container pt-5 pb-3 mt-5">
+            <div class="row">
+                <div class="col-4 d-flex flex-column">
+                    <div class="footer_logo mb-5">
+                        <img width="300" src="./assets/img/theme_eduprime_logo.png" alt="">
+                    </div>
+                    <p class="txt_white">EduPrime is the most versatile WordPress theme for educational purposes, showcasing
+                        universities, courses, secondary schools etc.</p>
+                    <div class="social d-flex gap-3 pt-3">
+                        <div class="social_icon">
+                            <font-awesome-icon class=" fs-3 txt_white p-2"
+                                :icon="['fab', 'facebook-f']" />
+                        </div>
+                        <div class="social_icon">
+                            <font-awesome-icon class=" fs-3 txt_white" :icon="['fab', 'twitter']" />
+                        </div>
+                        <div class="social_icon">
+                            <font-awesome-icon class=" fs-3 txt_white" :icon="['fab', 'instagram']" />
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"></div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+
 
     </footer>
 </template>
