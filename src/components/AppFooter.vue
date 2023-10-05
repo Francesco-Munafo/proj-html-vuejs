@@ -23,8 +23,8 @@ methods: {
                     </div>
                     <p class="txt_white">{{ this.footerItems[0].eduDescription[0].description}}</p>
                     <div class="social d-flex gap-3 pt-3">
-                        <div class="social_icon" v-for="icon in this.footerItems[0].eduDescription[0].socials[0]">
-                            <font-awesome-icon class=" fs-3 txt_white p-2" :icon="icon" />
+                        <div class="social_icon d-flex justify-content-center align-items-center" v-for="icon in this.footerItems[0].eduDescription[0].socials[0]">
+                            <font-awesome-icon class=" fs-4 txt_white p-2" :icon="icon" />
                         </div>
                         
 
