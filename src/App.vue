@@ -74,7 +74,7 @@ export default {
                 <div class="container">
                     <div class="row row-cols-5 justify-content-center align-items-center">
 
-                        <div class="col py-3 d-flex flex-column align-items-center">
+                        <div class="col py-3 d-flex flex-column align-items-center active">
                             <img class="img-fluid" src="./assets/img/Gavel-v2.png" alt="">
                             <h6 class="mt-2 mb-0 txt_danger">Law Faculty</h6>
                         </div>
