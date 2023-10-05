@@ -1,6 +1,23 @@
 <script>
+import { faculties } from '../store.js'
 export default {
- name: 'AppMain'
+
+    data(){
+        return{
+
+           faculties,
+           activeIndex : 0
+        }
+    },
+
+ name: 'AppMain',
+ 
+
+ methods: {
+    getImagePath: function (img) {
+            return new URL(img, import.meta.url).href
+        }
+ }
 }
 </script>
 
@@ -60,26 +77,11 @@ export default {
                 <div class="container">
                     <div class="row row-cols-5 justify-content-center align-items-center">
 
-                        <div class="col py-3 d-flex flex-column align-items-center active">
-                            <img class="img-fluid" src="../assets/img/Gavel-v2.png" alt="">
-                            <h6 class="mt-2 mb-0 txt_danger">Law Faculty</h6>
+                        <div class="col py-3 d-flex flex-column align-items-center" v-for="(faculty, index) in this.faculties" @click="this.activeIndex = index" :class="this.activeIndex === index ? 'active' : ''">
+                            <img class="img-fluid" :src="getImagePath(faculty.img)" alt="">
+                            <h6 class="mt-2 mb-0 txt_danger">{{ faculty.title }}</h6>
                         </div>
-                        <div class="col py-3 d-flex flex-column align-items-center">
-                            <img class="img-fluid" src="../assets/img/Coins-tabs-v2.png" alt="">
-                            <h6 class="mt-2 mb-0 txt_danger">Economy</h6>
-                        </div>
-                        <div class="col py-3 d-flex flex-column align-items-center">
-                            <img class="img-fluid" src="../assets/img/Medicine-tabs-v2.png" alt="">
-                            <h6 class="mt-2 mb-0 txt_danger">Medicine</h6>
-                        </div>
-                        <div class="col py-3 d-flex flex-column align-items-center">
-                            <img class="img-fluid" src="../assets/img/Computer-tabs-v2.png" alt="">
-                            <h6 class="mt-2 mb-0 txt_danger">Computer Science</h6>
-                        </div>
-                        <div class="col py-3 d-flex flex-column align-items-center">
-                            <img class="img-fluid" src="../assets/img/Palette-tabs-v2.png" alt="">
-                            <h6 class="mt-2 mb-0 txt_danger">Graphic Design</h6>
-                        </div>
+                        
 
                     </div>
                 </div>
@@ -87,13 +89,11 @@ export default {
             <div class="container faculty">
                 <div class="row row-cols-2 justify-content-center">
                     <div class="col text-center">
-                        <img src="../assets/img/Gavel-Illustration-e1556884768193.png" alt="">
+                        <img :src="getImagePath(this.faculties[this.activeIndex].descriptionImg)" alt="">
                     </div>
                     <div class="col">
-                        <h2 class="txt_main fw-bold mb-4">Law Faculty</h2>
-                        <p>Learning from world-leading academics and practitioners, you'll not only receive an outstanding
-                            grounding in the theory of law, but you will be able to understand how those principles are
-                            applied in practice through a range of student-led activities and competitions.</p>
+                        <h2 class="txt_main fw-bold mb-4">{{ this.faculties[this.activeIndex].title }}</h2>
+                        <p>{{ this.faculties[this.activeIndex].description }}</p>
                         <button class="bg_danger txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5">Read more</button>
                     </div>
                 </div>
