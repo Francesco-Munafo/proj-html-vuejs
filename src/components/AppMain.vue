@@ -195,7 +195,7 @@ export default {
                             </div>
 
                         </div>
-                        <button class="bg_warning txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5 m-auto">View All
+                        <button class="btn bg_warning txt_white fw-medium rounded-5 border-0 mt-4 p-4 px-5 m-auto">View All
                             Events</button>
                     </div>
                 </div>

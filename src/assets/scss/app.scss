@@ -34,8 +34,9 @@ button.bg_danger:hover {
 }
 
 button.bg_warning:hover {
-    background-color: $ep-bg-danger-transparent;
-    border: 1px solid;
+    background-color: $ep-bg-danger;
+    border: 1px solid $ep-bg-danger-transparent;
+    color: $ep-text-white;
 }
 
 button.bg_light:hover {
