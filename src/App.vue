@@ -1,15 +1,19 @@
 <script>
 import { linkList } from './header.js'
+import { footerItems } from './footer.js'
 import AppHeader from './components/AppHeader.vue'
+import AppFooter from './components/AppFooter.vue'
 export default {
     data() {
 
         return {
-            linkList
+            linkList,
+            footerItems
         }
     },
     components: {
-        AppHeader
+        AppHeader,
+        AppFooter
     }
 }
 </script>
@@ -413,8 +417,9 @@ export default {
         <section id="partner_splitter"></section>
 
     </main>
-
-    <footer class="bg_danger">
+    
+    <AppFooter logoPath="../assets/img/theme_eduprime_logo.png" :footerItems="this.footerItems"></AppFooter>
+    <!-- <footer class="bg_danger">
         <div class="container pt-5 pb-3 mt-5">
             <div class="row">
                 <div class="col-4 d-flex flex-column">
@@ -485,7 +490,7 @@ export default {
         </div>
 
 
-    </footer>
+    </footer> -->
 </template>
 
 
