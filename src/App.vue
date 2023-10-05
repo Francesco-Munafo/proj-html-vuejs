@@ -87,9 +87,11 @@
                     <p class=" fs-5">EduPrime is the most versatile WordPress theme for educational purposes, showcasing
                         universities, courses, secondary schools etc.</p>
                     <div class="d-flex my-5 justify-content-center">
-                        <button class="bg_warning txt_white fw-medium rounded-5 border-0 p-4 px-5 ms-4">Search
+                        <button class="bg_warning txt_white fw-medium rounded-5 border-0 p-4 px-5 ms-4"><font-awesome-icon
+                                :icon="['fas', 'magnifying-glass']" /> Search
                             courses</button>
-                        <button class="bg_light txt_danger fw-medium rounded-5 border-0 p-4 px-5 ms-4">Apply for
+                        <button class="bg_light txt_danger fw-medium rounded-5 border-0 p-4 px-5 ms-4"><font-awesome-icon
+                                :icon="['fas', 'user-plus']" /> Apply for
                             university</button>
                     </div>
                 </div>
@@ -417,7 +419,7 @@
                 <div class="col-6">
                     <div class="input-group w-75 ms-auto">
 
-                        <input type="text" class="form-control rounded-5 my-1" placeholder="Email address..."
+                        <input type="text" class="form-control rounded-5 my-1 input_area" placeholder="Email address..."
                             aria-label="Recipient's username" aria-describedby="button-addon2">
                         <button class="btn bg_warning txt_white rounded-5 position-relative submit" type="button"
                             id="button-addon2"><font-awesome-icon :icon="['fas', 'paper-plane']" /></button>
@@ -483,8 +485,7 @@
                         universities, courses, secondary schools etc.</p>
                     <div class="social d-flex gap-3 pt-3">
                         <div class="social_icon">
-                            <font-awesome-icon class=" fs-3 txt_white p-2"
-                                :icon="['fab', 'facebook-f']" />
+                            <font-awesome-icon class=" fs-3 txt_white p-2" :icon="['fab', 'facebook-f']" />
                         </div>
                         <div class="social_icon">
                             <font-awesome-icon class=" fs-3 txt_white" :icon="['fab', 'twitter']" />
@@ -497,9 +498,49 @@
 
                     </div>
                 </div>
-                <div class="col-2"></div>
-                <div class="col-2"></div>
-                <div class="col-4"></div>
+                <div class="col-2 ps-5">
+                    <ul class="list-unstyled">
+                        <h6 class="card-subtitle txt_white fw-bold mb-2 py-2 ">Get EduPrime</h6>
+                        <li><a href="">Request a website</a></li>
+                        <li><a href="">Browse Themes</a></li>
+                        <li><a href="">Payment options</a></li>
+                        <li><a href="">Support System</a></li>
+                        <li><a href="">Checkout</a></li>
+                        <li><a href="">Purchase Theme</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 ps-5">
+                    <ul class="list-unstyled">
+                        <h6 class="card-subtitle txt_white fw-bold mb-2 py-2 ">Networking</h6>
+                        <li><a href="">Purchase Theme</a></li>
+                        <li><a href="">Our Benefits</a></li>
+                        <li><a href="">Our Team</a></li>
+                        <li><a href="">Our Services</a></li>
+                        <li><a href="">Other Products</a></li>
+                        <li><a href="">My account</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 d-flex flex-column align-items-end">
+                    <div class="input-group w-75 ms-5">
+
+                        <input type="text" class="form-control rounded-5 my-1 position-relative input_area"
+                            placeholder="Search..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn bg_warning txt_white rounded-5 position-relative submit" type="button"
+                            id="button-addon2"><font-awesome-icon :icon="['fas', 'magnifying-glass']" /></button>
+                    </div>
+                    <div class="categories w-75 text-end pt-4">
+                        <h6 class="card-subtitle txt_white fw-bold mb-2 py-2 w-100">Search categories</h6>
+                        <div class="pills d-flex justify-content-end flex-wrap gap-2">
+                            <span class="badge rounded-pill border border-1 p-2 fw-medium">ECONOMY</span>
+                            <span class="badge rounded-pill border border-1 p-2 fw-medium">DESIGN</span>
+                            <span class="badge rounded-pill border border-1 p-2 fw-medium">COACHING</span>
+                            <span class="badge rounded-pill border border-1 p-2 fw-medium">BUSINESS</span>
+                            <span class="badge rounded-pill border border-1 p-2 fw-medium">MEDICINE</span>
+                            <span class="badge rounded-pill border border-1 p-2 fw-medium">LAW</span>
+                            <span class="badge rounded-pill border border-1 p-2 fw-medium">FITNESS</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

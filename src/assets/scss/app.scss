@@ -12,7 +12,7 @@
 body {
 
     font-family: 'Fredoka', sans-serif;
-
+    overflow-x: hidden;
 }
 
 /*#region BACKGROUND UTILITIES */
@@ -276,10 +276,14 @@ h2 {
     }
 }
 
+.input_area{
+    left: 30px;
+}
+
 .submit{
     width: 50px;
     aspect-ratio: 1 / 1;
-    left: -30px;
+    //left: -30px;
 }
 
 #partners{
@@ -324,4 +328,17 @@ footer{
         padding-top: 0.60rem;
         padding-left: 0.10rem;
     }
+}
+
+footer a{
+    color: $ep-text-white;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+footer .badge:hover{
+    background-color: $ep-bg-warning;
 }
